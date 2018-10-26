@@ -67,7 +67,7 @@
 export default {
     data() {
         return {
-            parallax_image: require('../assets/chun.jpg'),
+            parallax_image: require('../assets/chun.jpeg'),
             cards: {
                 card1: require('../assets/cat.jpg'),
                 card2: require('../assets/cat1.jpg'),
