@@ -6,18 +6,17 @@ import App from './App'
 import '@fortawesome/fontawesome-free/css/all.css'
 import HomePage from '@/components/HomePage'
 import Frowning from '@/components/Frowning'
+import Contact from '@/components/Contact'
+import PhotoGrid from 'vue-photo-grid';
 
-
-Vue.use(Vuetify, {
-    iconfont: 'fa'
-})
-
+Vue.use(PhotoGrid);
 Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 const routes = [
     { path: '/', component: HomePage },
-    { path: '/frowning', component: Frowning }
+    { path: '/Frowning', component: Frowning },
+    { path: '/Contact', component: Contact }
 ]
 
 const router = new VueRouter({
