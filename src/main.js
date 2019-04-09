@@ -7,9 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import HomePage from '@/components/HomePage'
 import Frowning from '@/components/Frowning'
 import Contact from '@/components/Contact'
-import PhotoGrid from 'vue-photo-grid';
 
-Vue.use(PhotoGrid);
 Vue.use(VueRouter)
 Vue.config.productionTip = false
 
