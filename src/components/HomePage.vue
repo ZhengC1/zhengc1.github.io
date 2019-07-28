@@ -12,7 +12,7 @@
                     <v-flex xs12 row>
                         <v-layout align-center justify-center column>
                             <h1 class="display-2 font-weight-thin mb-3">Software Developer</h1>
-                            <h4 class="subheading">Friend, Colleague, Amatuer Cat Enthusiast</h4>
+                            <h4 class="subheading">Friend, Lover, Amatuer Cat Enthusiast</h4>
                         </v-layout>
                     </v-flex>
                 </v-layout>
