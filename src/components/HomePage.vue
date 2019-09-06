@@ -62,6 +62,7 @@
 
 <script>
 import Footer from '@/components/Footer'
+import Carousel from '@/components/Carousel'
 export default {
     name: 'HomePage',
     components: {
