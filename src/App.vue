@@ -8,6 +8,7 @@
 <script>
 import HomePage from '@/components/HomePage'
 import Frowning from '@/components/Frowning'
+import Carousel from '@/components/Carousel'
 import About from '@/components/About'
 
 export default {
@@ -15,6 +16,7 @@ export default {
     components: {
         HomePage,
         Frowning,
+        Carousel,
         About
     },
 }

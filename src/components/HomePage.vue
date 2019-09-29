@@ -55,6 +55,14 @@
             </v-layout>
         </v-container>
         <v-parallax dark :src="parallax_image">
+            <v-container>
+                <div class='work-ad' > 
+                    <h1> 
+                        See what former co-workers have to say about Chun 
+                    </h1>
+                </div>
+                <Carousel/>
+            </v-container>
         </v-parallax>
         <Footer/>
     </div>
@@ -66,6 +74,7 @@ import Carousel from '@/components/Carousel'
 export default {
     name: 'HomePage',
     components: {
+        Carousel,
         Footer
     },
     data() {
@@ -84,4 +93,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.work-ad {
+    text-align: center;
+}
+</style>
