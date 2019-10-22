@@ -2,14 +2,14 @@
   <v-footer height="auto" color="primary lighten-1">
     <v-layout justify-center row wrap>
         <a href="https://github.com/ZhengC1" target="_blank">
-      <v-btn class="mx-3 white--text" icon>
+      <v-btn class="mx-3 white--text theme--dark" icon>
           <v-icon>
               fab fa-github
           </v-icon>
       </v-btn>
         </a>
       <a href="https://linkedin.com/in/chun-zheng/" target="_blank">
-      <v-btn class="mx-3 white--text" icon>
+      <v-btn class="mx-3 white--text theme--dark" icon>
           <v-icon>
               fab fa-linkedin
           </v-icon>
