@@ -11,7 +11,8 @@
                     </v-flex>
                     <v-flex xs12 row>
                         <v-layout align-center justify-center column>
-                            <h1 class="display-2 font-weight-thin mb-3">Software Developer</h1>
+                            <h1 class="display-2 font-weight-thin mb-3">Chun Zheng</h1>
+                            <h2 class="display-2 font-weight-thin mb-3">Software Developer</h2>
                             <h4 class="subheading">Friend, Lover, Amatuer Cat Enthusiast</h4>
                         </v-layout>
                     </v-flex>
@@ -21,14 +22,16 @@
         <v-container pt-5 fluid>
             <v-layout align-center justify-center fill-height row wrap>
                 <v-flex pa-5 ma-3>
-                    <v-card :href="cards.card1_url" :hover="true">
-                        <v-img :src="cards.card1" height="200px"> </v-img>
-                        <v-card-title  primary-title>
-                            <div>
-                                <div class="headline">Frowning</div>
-                            </div>
-                        </v-card-title>
-                    </v-card>
+                    <a href='http://www.instagram.com/zhengc42/?hl=entrue'>
+                        <v-card :hover="true">
+                            <v-img :src="cards.card1" height="200px"> </v-img>
+                            <v-card-title  primary-title>
+                                <div>
+                                    <div class="headline">My Cat</div>
+                                </div>
+                            </v-card-title>
+                        </v-card>
+                    </a>
                 </v-flex>
                 <v-flex pa-5 ma-3>
                     <a href='https://github.com/ZhengC1'>
@@ -56,9 +59,9 @@
         </v-container>
         <v-parallax dark :src="parallax_image">
             <v-container>
-                <div class='work-ad' > 
-                    <h1> 
-                        See what former co-workers have to say about Chun 
+                <div class='work-ad'>
+                    <h1>
+                        See what former co-workers have to say about Chun
                     </h1>
                 </div>
                 <Carousel/>
@@ -93,7 +96,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import 'src/assets/css/homepage.css';
 .work-ad {
     text-align: center;
 }
