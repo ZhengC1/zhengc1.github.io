@@ -98,7 +98,5 @@ export default {
 
 <style lang="scss">
 @import 'src/assets/css/homepage.css';
-.work-ad {
-    text-align: center;
-}
+
 </style>
