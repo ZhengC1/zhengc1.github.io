@@ -1,10 +1,10 @@
 <script>
 	// Personal Information
 	export let name = 'Chun Zheng';
-	export let title = 'Senior Software Engineer';
+	// export let title = 'Senior Software Engineer';
 	export let email = 'Zhengc42@gmail.com';
 	export let phone = '984-888-4044';
-	export let location = 'Apex, NC';
+	// export let location = 'Apex, NC';
 
 	// Professional Experience
 	export let experience = [
@@ -122,13 +122,9 @@
 	// Theme colors
 	export let primaryColor = '#2c3e50';
 	export let accentColor = '#3498db';
-	export let textColor = '#111827';
-	export let backgroundColor = '#ffffff';
+	// export let textColor = '#111827';
+	// export let backgroundColor = '#ffffff';
 
-	// Print functionality
-	function printResume() {
-		window.print();
-	}
 </script>
 
 <svelte:head>
