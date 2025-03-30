@@ -1,5 +1,6 @@
 <script>
 	// Personal Information
+	export const prerender = true;
 	export let name = 'Chun Zheng';
 	// export let title = 'Senior Software Engineer';
 	export let email = 'Zhengc42@gmail.com';

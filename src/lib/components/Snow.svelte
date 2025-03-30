@@ -1,4 +1,5 @@
 <script>
+    export const prerender = true;
     let snowParticles = [];
     const numParticles = 200;
   
