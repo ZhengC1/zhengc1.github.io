@@ -8,6 +8,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 
+
 	kit: {
 		adapter: adapter({
 			pages: 'build',
@@ -15,7 +16,10 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 		}),
-	}
+	},
+	paths: {
+		base: process.env.NODE_ENV === "production" ? "/zhengc1.github.io" : "",
+	},
 };
 
 export default config;
